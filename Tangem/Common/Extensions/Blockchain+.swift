@@ -46,6 +46,7 @@ extension Blockchain {
         case "ethereumfair": self = .ethereumFair
         case "sxdai": self = .saltPay // TODO: TBD
         case "the-open-network": self = .ton(testnet: isTestnet)
+        case "ravencoin": self = .ravencoin(testnet: isTestnet)
         default:
             AppLog.shared.debug("⚠️⚠️⚠️ Failed to map network ID \"\(stringId)\"")
             return nil
@@ -83,6 +84,7 @@ extension Blockchain {
         case .ethereumFair: return "ethereumfair"
         case .saltPay: return "sxdai"
         case .ton: return "the-open-network"
+        case .ravencoin: return "ravencoin"
         }
     }
 
@@ -130,6 +132,7 @@ extension Blockchain {
         case .ethereumFair: return "ethereumfair"
         case .saltPay: return "sxdai"
         case .ton: return "the-open-network"
+        case .ravencoin: return "ravencoin"
         }
     }
 
@@ -186,6 +189,7 @@ extension Blockchain {
             .dash(testnet: false),
             .optimism(testnet: false),
             .ton(testnet: false),
+            .ravencoin(testnet: false),
         ]
     }()
 
@@ -207,6 +211,7 @@ extension Blockchain {
             .arbitrum(testnet: true),
             .optimism(testnet: true),
             .ton(testnet: true),
+            .ravencoin(testnet: true),
         ]
     }()
 }
