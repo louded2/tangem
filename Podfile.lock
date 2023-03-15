@@ -237,7 +237,7 @@ DEPENDENCIES:
   - AppsFlyerFramework
   - BinanceChain (from `https://github.com/tangem/swiftbinancechain.git`, tag `0.0.9`)
   - BitcoinCore.swift (from `https://github.com/tangem/bitcoincore.git`, tag `0.0.16`)
-  - BlockchainSdk (from `https://github.com/tangem/blockchain-sdk-swift.git`, tag `develop-226`)
+  - BlockchainSdk (from `https://github.com/tangem/blockchain-sdk-swift.git`, branch `IOS-2305-Add-Ravencoin`)
   - DeviceGuru (= 8.0.0)
   - Firebase/Analytics
   - Firebase/Crashlytics
@@ -250,7 +250,7 @@ DEPENDENCIES:
   - TangemWalletCore (from `https://github.com/tangem/wallet-core-binaries-ios.git`, tag `3.1.9-tangem1`)
   - WalletConnectSwift (from `https://github.com/WalletConnect/WalletConnectSwift`, tag `1.7.0`)
   - WalletConnectSwiftV2 (from `https://github.com/WalletConnect/WalletConnectSwiftV2`, tag `1.1.0`)
-  - web3swift (from `https://github.com/tangem/web3swift.git`, tag `2.2.11`)
+  - web3swift (from `https://github.com/tangem/web3swift.git`, tag `2.2.10`)
   - ZendeskChatSDK (~> 2.12.0)
   - ZendeskSupportSDK (~> 5.5.0)
 
@@ -311,8 +311,8 @@ EXTERNAL SOURCES:
     :git: https://github.com/tangem/bitcoincore.git
     :tag: 0.0.16
   BlockchainSdk:
+    :branch: IOS-2305-Add-Ravencoin
     :git: https://github.com/tangem/blockchain-sdk-swift.git
-    :tag: develop-226
   HDWalletKit:
     :git: https://github.com/tangem/hdwallet.git
     :tag: 0.3.12
@@ -336,7 +336,7 @@ EXTERNAL SOURCES:
     :tag: 1.1.0
   web3swift:
     :git: https://github.com/tangem/web3swift.git
-    :tag: 2.2.11
+    :tag: 2.2.10
 
 CHECKOUT OPTIONS:
   AlertToast:
@@ -349,8 +349,8 @@ CHECKOUT OPTIONS:
     :git: https://github.com/tangem/bitcoincore.git
     :tag: 0.0.16
   BlockchainSdk:
+    :commit: 51175218a75a4e7e8fdc52e36efdf8460a3a1633
     :git: https://github.com/tangem/blockchain-sdk-swift.git
-    :tag: develop-226
   HDWalletKit:
     :git: https://github.com/tangem/hdwallet.git
     :tag: 0.3.12
@@ -374,7 +374,7 @@ CHECKOUT OPTIONS:
     :tag: 1.1.0
   web3swift:
     :git: https://github.com/tangem/web3swift.git
-    :tag: 2.2.11
+    :tag: 2.2.10
 
 SPEC CHECKSUMS:
   Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
@@ -433,6 +433,6 @@ SPEC CHECKSUMS:
   ZendeskSupportProvidersSDK: 77a62fe6bacc05bb10ff20edce75612fa109fd61
   ZendeskSupportSDK: ba72e90e327635b5fde3d023a3de33242a6ee8ab
 
-PODFILE CHECKSUM: 3bf45c0d1d0aa937ebfe762aae9ecb3d220bac84
+PODFILE CHECKSUM: 518e0ec972eb64c3983ae5ad66d4d35fcf88cc2f
 
 COCOAPODS: 1.11.3
